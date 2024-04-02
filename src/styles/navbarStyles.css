@@ -1,0 +1,49 @@
+/* navbarStyles.css */
+.logo{
+    background-color: gray;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 96vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    z-index: 1; 
+}
+
+
+
+input[type="text"] {
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin: 0 10px;
+    margin-right: 600px;
+    position: relative;
+    left:200px
+}
+
+.notification {
+    margin-right: 10px;
+    margin-left: 350px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.username {
+    margin-right: 10px;
+}
+
+.user-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

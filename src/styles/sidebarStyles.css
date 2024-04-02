@@ -1,0 +1,44 @@
+/* sidebarStyles.css */
+
+.sidebar {
+    position: fixed; 
+    top: 20px; 
+    left: 0; 
+    background-color: #f8f9fa;
+    color: #374151;
+    padding: 20px;
+    margin: 0; 
+    width: 200px; 
+    height: 100%; 
+    overflow-y: auto;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+    padding-top: 20px
+}
+
+.sidebar ul li svg {
+    margin-right: 10px;
+}
+
+.sidebar ul li:hover {
+    color: gray;
+}
+
+.sidebar .nested {
+    margin-left: 20px;
+}
+
+.sidebar .nested li {
+    margin-bottom: 5px;
+}
+
+.sidebar .nested li svg {
+    margin-right: 10px;
+}

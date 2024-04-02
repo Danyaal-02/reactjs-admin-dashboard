@@ -1,0 +1,20 @@
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container1 .left-content, .right-content {
+    width: 45%;
+}
+
+.container1 .left-content {
+    color: #333;
+}
+
+.container1 .right-content {
+    text-align: left;
+    width: 50%;
+    height: 50%;
+}

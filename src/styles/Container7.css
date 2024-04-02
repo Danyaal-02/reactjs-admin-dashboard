@@ -1,0 +1,29 @@
+.container7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container7 .increase {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container7 .increase span{
+    padding-left: 100px;
+}
+
+.arrow-icon{
+    color: green;
+}
+
+.container7 .increase h2{
+    font-weight: 200;
+    margin-top: 0;
+}
